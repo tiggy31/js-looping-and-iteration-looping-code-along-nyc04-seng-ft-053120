@@ -1,11 +1,26 @@
 // Code your solutions in this file
 
-function countDown{
-    for (let i= 10; i >= 0; i--) {
-        console.log(countDown);
-      }
 
-
+function writeCards(names, event) {
+   
+  let cards = []
+   
+  for(let i=0; i < names.length; i++){
+    
+    cards.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`)
+  
+  }
+   return cards
 }
 
-countDown(10)
+
+function countDown(number) {
+
+    while(number > 0) {
+      console.log(number)
+      number --
+
+
+    }
+   console.log(number)
+}
